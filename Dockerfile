@@ -5,6 +5,3 @@ RUN apt-get update && \
 	rm -r /var/lib/apt/lists/* && \
 	a2enmod ssl && \
 	a2ensite default-ssl
-
-EXPOSE 80
-EXPOSE 443
